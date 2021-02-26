@@ -122,4 +122,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT='staticfiles'
+
 django_on_heroku.settings(locals())
